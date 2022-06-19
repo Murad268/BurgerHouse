@@ -1,0 +1,54 @@
+.cardsItem {
+   position: relative;
+}
+.cardsItem img {
+   width: 100%;
+   height: 100%;
+}
+.cardsItem__title {
+   position: absolute;
+   top: 31px;
+   left: 24px;
+   font-family: 'Bebas Neue';
+   font-size: 25px;
+   line-height: 37px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #ffffff;
+}
+.cardsItem__subtitle {
+   position: absolute;
+   top: 61px;
+   left: 24px;
+   font-family: 'Bebas Neue';
+   font-size: 41.7px;
+   line-height: 47px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #ffffff;
+   width: 160px;
+   margin-top: 5px;
+   
+}
+.cardsItem:nth-child(1) {
+   grid-row-start: 1;
+   grid-row-end: 4;
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
+.cardsItem:nth-child(1) .cardsItem__subtitle {
+   width: max-content;
+}
+.cardsItem:nth-child(2) {
+   grid-row-start: 1;
+   grid-row-end: 2;
+   grid-column-start: 2;
+   grid-column-end: 3;
+}
+.cardsItem:nth-child(3) {
+   grid-row-start: 3;
+   grid-row-end: 4;
+   grid-column-start: 2;
+   grid-column-end: 3;
+   
+}

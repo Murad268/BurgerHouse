@@ -1,0 +1,24 @@
+.cards {
+   padding: 78px 0 39px 0;
+}
+.cards__wrapper {
+   display: grid;
+   row-gap: 20px;
+   column-gap: 32px;
+}
+.cards__button {
+   width: 218px;
+   height: 48px;
+   background-color: #ffc045;
+   font-family: 'Bebas Neue';
+   font-size: 25px;
+   line-height: 37px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #3d2514;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 71px auto 0 auto;
+}

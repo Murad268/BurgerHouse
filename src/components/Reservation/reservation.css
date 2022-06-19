@@ -1,0 +1,75 @@
+.reservation {
+   padding: 132px 0 177px 0;
+   position: relative;
+}
+.reservation__subtitle {
+   font-family: 'Bebas Neue';
+   font-size: 29.2px;
+   line-height: 45px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.06em;
+   color: #3d2514;
+   text-align: center;
+}
+.reservation__title {
+   font-family: 'Alfa Slab One';
+   font-size: 50px;
+   line-height: 45px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.06em;
+   color: #3d2514;
+   text-align: center;
+   margin-bottom: 62px;
+}
+.form__wrapper {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 60%;
+   margin: 0 auto;
+   column-gap: 26px;
+}
+.input-group input {
+   width: 100%;
+   height: 65px;
+   background-color: rgba(235,174,76,0.0);
+   border: 1px solid #bebebe;
+   border-radius: 5px;
+   font-family: 'Bebas Neue';
+   font-size: 20.9px;
+   line-height: 45px;
+   font-weight: 400;
+   color: #3d3d3d;
+   padding-left: 13px;
+   margin-top: 27px;
+}
+.input-group button {
+   width: 100%;
+   height: 65px;
+   background-color: #bf2222;
+   border-radius: 5px;
+   margin-top: 27px;
+   font-family: 'Alfa Slab One';
+   font-size: 20.9px;
+   line-height: 45px;
+   font-weight: 400;
+   text-transform: uppercase;
+   color: #ffffff;
+   border: none;
+}
+.burgerTop {
+   position: absolute;
+   top: 31px;
+   left: 0;
+}
+.burgerLeft {
+   position: absolute;
+   top: 280px;
+   left: 100px;
+}
+.burgerRight {
+   position: absolute;
+   bottom: -130px;
+   right: -80px;
+}

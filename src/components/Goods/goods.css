@@ -1,0 +1,31 @@
+.goods {
+   padding: 0 0 80px 0;
+}
+.goods__title {
+   font-family: 'Alfa Slab One';
+   font-size: 50px;
+   line-height: 37px;
+   font-weight: 400;
+   text-transform: uppercase;
+   color: #3d2514;
+   text-align: center;
+}
+.goods__text {
+   font-family: Montserrat;
+   font-size: 16.7px;
+   line-height: 29px;
+   font-weight: 400;
+   color: #3d2514;
+   text-align: center;
+   margin: 30px auto 0 auto;
+   width: 70%;
+}
+.goods__wrapper {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column: 178px;
+   align-items: center;
+   column-gap: 110px;
+   margin: 65px auto 0 auto;
+   width: max-content;
+}
