@@ -1,0 +1,35 @@
+.revsItem {
+   width: 90%;
+   border: 5px solid blue;
+   margin: 0 auto;
+   border-radius: 30px;
+   text-align: center;
+   padding: 20px 0 20px 0;
+   margin-top: 20px;
+   position: relative;
+   cursor: pointer;
+}
+.revsItem__name {
+   font-size: 40px;
+   font-weight: 800;
+   color: white;
+}
+.revsItem__review {
+   font-size: 30px;
+   font-weight: 700;
+}
+.revsItem__false {
+   border: 5px solid red;
+}
+
+.revsItem__delete {
+   font-size: 50px;
+   cursor: pointer;
+   position: absolute;
+   right: 15px;
+   top: -5px;
+   color: blue;
+}
+.revsItem__delete__active {
+   color: red;
+}

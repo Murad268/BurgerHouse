@@ -4,6 +4,7 @@ import Cards from '../components/Cards/Cards';
 import Goods from '../components/Goods/Goods';
 import UpComing from '../components/UpComing/UpComing';
 import Reservation from '../components/Reservation/Reservation';
+import Footer from '../components/footer/Footer';
 const HomePage = () => {
    return (
       <>
@@ -12,6 +13,7 @@ const HomePage = () => {
          <Goods/>
          <UpComing/>
          <Reservation/>
+         <Footer/>
       </>
    );
 };

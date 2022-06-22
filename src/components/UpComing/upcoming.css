@@ -1,5 +1,7 @@
 .upComing {
    padding: 27px 0 27px 0;
+   background-color: #ffffff;
+   box-shadow: 19px 25px 43px 0px rgba(0,0,0,0.17);
 }
 .upComing__wrapper {
    display: grid;

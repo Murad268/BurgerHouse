@@ -1,0 +1,54 @@
+.goodMenu {
+   background-color: #001526;
+   padding: 30px;
+   position: relative;
+}
+.goodMenu__wrapper {
+   width: 55%;
+   /* margin: 0 auto; */
+   margin-left: 10%;
+}
+.first, .second, .third, .fourth, .fifty {
+   position: absolute;
+   
+   width: 350px;
+   height: 250px;
+}
+.first {
+   top: 120px;
+   right: 69px;
+}
+.second {
+   top: 460px;
+   right: 69px;
+}
+.third {
+   top: 950px;
+   right: 69px;
+}
+.fourth {
+   top: 1270px;
+   right: 69px;
+}
+.fifty {
+   top: 1500px;
+   right: 69px;
+}
+.toHome {
+   background-color: red;
+   width: max-content;
+   padding: 15px;
+   border-radius: 10px;
+   transition: all 0.3s;
+}
+.toHome:hover {
+   transform: scale(0.88);
+}
+.toHome a{
+   text-decoration: none;
+   color: white;
+   font-weight: 800;
+}
+.toHome a:hover{
+   color: white;
+}

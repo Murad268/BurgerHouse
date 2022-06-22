@@ -1,0 +1,55 @@
+.footer {
+   background: url("../../assets/images/footer/bg/place_your_design_here_\(double_click_to_edit\)_5176.png") center center/cover no-repeat;
+   padding: 84px 0px 22px 0px;
+   margin: 15px 0 66px 0;
+}
+.footer__wrapper {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   
+}
+.footer__descs {
+   width: 517px;
+}
+.footer__desc {
+   font-family: Montserrat;
+   font-size: 16.7px;
+   line-height: 25px;
+   font-weight: 400;
+   color: #ffffff;
+   margin-top: 48px;
+   text-align: justify;
+}
+
+.footer__address__item {
+   font-family: 'Bebas Neue';
+   font-size: 20.9px;
+   line-height: 37px;
+   font-weight: 700;
+   color: #ffffff;
+}
+.footer__address__item img {
+   margin-right: 34px;
+}
+.footer__footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 160px;
+   padding: 0 30px 0 43px;
+}
+
+.footer__links {
+   display: flex;
+   width: 160px;
+   justify-content: space-between;
+   align-items: center;
+}
+.copirate {
+   font-family: 'Bebas Neue';
+   font-size: 16.7px;
+   line-height: 1.2;
+   font-weight: 400;
+   color: #ffffff;
+}

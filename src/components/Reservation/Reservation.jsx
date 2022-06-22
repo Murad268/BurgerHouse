@@ -29,6 +29,7 @@ const Reservation = () => {
          </div>
       </div>
    );
+   console.log(1 + "2")
 };
 
 export default Reservation;

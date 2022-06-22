@@ -1,0 +1,22 @@
+.goodItems {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: aliceblue;
+   font-size: 30px;
+   font-weight: 800;
+   width: 100%;
+}
+.goodItems__tittle {
+   font-size: 35px;
+   color: aliceblue;
+   margin: 20px 0 20px 0;
+   color: rgb(212, 212, 10);
+   font-weight: 900;
+   width: 400px;
+}
+.goodItemsPrice {
+   font-weight: 800;
+   color: rgb(10, 240, 10);
+   font-size: 35px;
+}

@@ -1,4 +1,4 @@
-.navbarItem {
+.navbarItem .link{
    font-family: 'Bebas Neue';
    font-size: 20.9px;
    line-height: 1.2;
@@ -6,4 +6,5 @@
    text-transform: uppercase;
    letter-spacing: 0.2em;
    color: #3d2514;
+   text-decoration: none;
 }

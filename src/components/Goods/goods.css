@@ -1,5 +1,6 @@
 .goods {
    padding: 0 0 80px 0;
+  margin-bottom: 500px;
 }
 .goods__title {
    font-family: 'Alfa Slab One';
@@ -25,7 +26,7 @@
    grid-template-columns: repeat(3, 1fr);
    grid-column: 178px;
    align-items: center;
-   column-gap: 110px;
+   column-gap: 60px;
    margin: 65px auto 0 auto;
    width: max-content;
 }

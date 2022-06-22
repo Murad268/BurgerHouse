@@ -1,9 +1,13 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import {NavLink } from 'react-router-dom';
 import './navbarItem.css';
 const NavbarItem = ({item}) => {
+  
+   
+  
    return (
       <li className='navbarItem'>
-         {item.itemName}
+         <NavLink  className="link" to={item.to}>{item.itemName}</NavLink>
       </li>
    );
 };

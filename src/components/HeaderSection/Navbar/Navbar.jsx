@@ -5,10 +5,9 @@ import logo from "../../../assets/icons/navbar/navbarLogo.png";
 import delivery from '../../../assets/icons/navbar/2833318.png'
 const Navbar = () => {
    const [list, setList] = useState([
-      {id: 1, itemName: "HOME"},
-      {id: 2, itemName: "MENU"},
-      {id: 3, itemName: "DUR STORY"},
-      {id: 4, itemName: "CONTACT US"},
+      {id: 2, itemName: "MENU", to: "/menu"},
+      {id: 3, itemName: "REVIEWS", to: "reviews"},
+      {id: 4, itemName: "CONTACT US", to: "/contact"},
    ])
    return (
       <nav className='navbar container'>

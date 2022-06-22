@@ -2,6 +2,7 @@
    padding: 132px 0 177px 0;
    position: relative;
 }
+
 .reservation__subtitle {
    font-family: 'Bebas Neue';
    font-size: 29.2px;
@@ -70,6 +71,6 @@
 }
 .burgerRight {
    position: absolute;
-   bottom: -130px;
-   right: -80px;
+   bottom: -100px;
+   right: 0
 }
