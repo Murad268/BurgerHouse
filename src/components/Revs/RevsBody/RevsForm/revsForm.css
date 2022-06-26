@@ -1,3 +1,6 @@
+input {
+   padding-left: 10px;
+}
 .revsForm {
    width: 900px;
    margin: 0 auto;
